@@ -7,8 +7,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.translation-app{
+  padding: 20px;
+  outline: 5px solid black;
+  width: 500px;
+}
+
+.input-box{
+  outline:  5px solid red;
+  width: 80%;
+  margin: 20px auto;
+}
+.output-box{
+  outline:  5px solid greenyellow;
+  width: 80%;
+  margin: 20px auto;
 }
