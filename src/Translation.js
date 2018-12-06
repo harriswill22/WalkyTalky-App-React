@@ -18,7 +18,10 @@ class Translation extends Component {
         />
         <OutputBox 
         theText={this.state.text}
-        // theText={this.state.text.toUpperCase()}
+        />
+        <OutputBox 
+        theText={this.state.text}
+        transformer='l33t'
         />
         </div>
         );
