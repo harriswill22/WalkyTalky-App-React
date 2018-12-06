@@ -17,7 +17,7 @@ class Translation extends Component {
             changeHandler={this._updateText}
         />
         <OutputBox 
-        theText={this.state.text.toUpperCase}/>
+        theText={this.state.text.toUpperCase()}/>
         </div>
         );
     }
