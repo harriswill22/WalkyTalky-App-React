@@ -35,3 +35,23 @@ code {
   width: 80%;
   margin: 20px auto;
 }
+
+.outline-blue{
+  outline:  5px solid rgb(21, 9, 197);
+}
+
+.outline-green{
+  outline:  5px solid greenyellow;
+}
+
+.outline-red{
+  outline:  5px solid rgb(255, 47, 47);
+}
+
+.bg-green{
+  color: greenyellow;
+}
+
+.bg-yellow{
+  color: yellow;
+}

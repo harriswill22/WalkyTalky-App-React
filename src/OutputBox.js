@@ -30,7 +30,10 @@ const OutputBox = (props)  =>{
     }
 
     return(
-        <div className="output-box">
+        <div className={`
+        ${props.bgClass}
+        ${props.olClass}
+        output-box`}>
         {textToDisplay}
         </div>
     );

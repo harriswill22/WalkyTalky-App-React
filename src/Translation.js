@@ -18,10 +18,15 @@ class Translation extends Component {
         />
         <OutputBox 
         theText={this.state.text}
+        bgClass='bg-green'
+        olClass='outline-red'
+
         />
         <OutputBox 
         theText={this.state.text}
         transformer='l33t'
+        bgClass='bg-yellow'
+        olClass='outline-blue'
         />
         </div>
         );
